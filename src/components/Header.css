@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header-content {
+    height: 260px;
+    background-image: url("pic.jpeg");
+    color: white;
+    padding-left: 30%;
+    padding-top: 4%;
+}
+
+.header-content h1 {
+    font-size: 38px;
+    padding-bottom: 30px;
+    letter-spacing: 0.5mm;
+}
+
+.inputarea {
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    width: 500px;
+    height: 55px;
+    margin-bottom: 30px;
+}
+
+#btn {
+    width: 28px;
+    height: 25px;
+    background-color: white;
+    margin: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    outline: none;
+}
+
+.header-content input {
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    width: 500px;
+    height: 55px;
+    font-size: 18px;
+    outline: none;
+}
+
+.action-view {
+    width: 500px;
+    height: auto;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0px 15px 55px -17px rgba(0, 0, 0, 0.45);
+}
+
+.all {
+    width: 50px;
+    height: 36px;
+    border-radius: 5px;
+    color: blueviolet;
+    font-weight: 600;
+    border: 2px solid blueviolet;
+    text-align: center;
+    margin-right: 10px;
+    outline: none;
+}
+
+.act {
+    width: 70px;
+}
+
+.cmpld {
+    width: 120px;
+}
+
+.all:focus {
+    background-color: blueviolet;
+    color: white;
+}
+
+.act:focus {
+    background-color: blueviolet;
+    color: white;
+}
+
+.cmpld:focus {
+    background-color: blueviolet;
+    color: white;
+}
+
+.bottom-view {
+    background-color: white;
+}
+
+.list-view {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.list {
+    font-weight: 600;
+    padding-bottom: 20px;
+    color: black;
+}
+
+.mycell {
+    color: black;
+}
+
+.hd {
+    font-weight: bolder;
+}
+
+.delete {
+    width: 28px;
+    height: 28px;
+    background-color: white;
+    margin-left: 370px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    outline: none;
+}
+
+.update {
+    width: 28px;
+    height: 28px;
+    background-color: white;
+    margin-right: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    outline: none;
+}
